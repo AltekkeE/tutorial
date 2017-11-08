@@ -1,3 +1,4 @@
+import { Feature2 } from './feature2';
 export class Main {
     static main() {
         console.log(`
@@ -6,6 +7,9 @@ export class Main {
         *-------------v-1.0.0-------------*
         ***********************************
         `);
+
+        let f2 = new Feature2();
+
         // return 'App Complete';
     }
 }
