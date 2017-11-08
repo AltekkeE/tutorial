@@ -3,3 +3,5 @@ export class Main {
 
     }
 }
+
+Main.main();
